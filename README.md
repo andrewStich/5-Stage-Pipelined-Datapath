@@ -1,10 +1,10 @@
 # 5 Stage Pipelined Datapath
 **Work in Progress**
 
-This was my final project for Advanced Computer Organization. We were given a set of 16-bit pseudo-MIPS instructions and were asked to design a pipelined datapath that would be able to execute all of the instructions. The project handout with detailed information about the instructions can be found at:
+This was my final project for Advanced Computer Organization. We were given a set of 16-bit pseudo-MIPS instructions and were asked to design a pipelined datapath that would be able to execute all of the instructions. The project handout with detailed information about the instructions can be found at: https://github.com/andrewStich/5-Stage-Pipelined-Datapath/blob/master/Term_Project_Spring2018.pdf
 
 ## First Stage
-The first stage of this project was the design of the datapath. We had to determine what kind of hardware was required to exacute all the instructions and draw out the connections between each component. We used MS Visio to draw connections and create a diagram. This kan be found here: 
+The first stage of this project was the design of the datapath. We had to determine what kind of hardware was required to exacute all the instructions and draw out the connections between each component. We used MS Visio to draw connections and create a diagram. This can be found here: https://github.com/andrewStich/5-Stage-Pipelined-Datapath/blob/master/Project_1_datapath.pdf
 
 ## Second Stage
 The second stage was to code each individual component using Verilog and instantiate them into a top module called CPU.v. We then wrote a testbench file, CPU_test_fixture.v, to debug our datapath. This is where I did most of the wark, but I did most of it in my spare time as I found it interesting and a bit of fun.
