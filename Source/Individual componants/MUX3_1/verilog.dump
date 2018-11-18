@@ -1,0 +1,100 @@
+$date
+	Sun Apr  8 20:21:41 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 959a82e37dfca34e $end
+
+
+$scope module MUX2_1_tb $end
+$var reg 16 ! d0 [15:0] $end
+$var reg 16 " d1 [15:0] $end
+$var reg 16 # d2 [15:0] $end
+$var reg 2 $ sel [1:0] $end
+$var wire 1 % m [15] $end
+$var wire 1 & m [14] $end
+$var wire 1 ' m [13] $end
+$var wire 1 ( m [12] $end
+$var wire 1 ) m [11] $end
+$var wire 1 * m [10] $end
+$var wire 1 + m [9] $end
+$var wire 1 , m [8] $end
+$var wire 1 - m [7] $end
+$var wire 1 . m [6] $end
+$var wire 1 / m [5] $end
+$var wire 1 0 m [4] $end
+$var wire 1 1 m [3] $end
+$var wire 1 2 m [2] $end
+$var wire 1 3 m [1] $end
+$var wire 1 4 m [0] $end
+
+$scope module DUT $end
+$var wire 16 ! d0 [15:0] $end
+$var wire 16 " d1 [15:0] $end
+$var wire 16 # d2 [15:0] $end
+$var wire 2 $ sel [1:0] $end
+$var reg 16 5 m [15:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+04
+0*
+0)
+0(
+0'
+0&
+0%
+03
+02
+01
+10
+0/
+0.
+1-
+1,
+0+
+b0000000110010000 !
+b0000001111001110 "
+b0000010000000000 #
+b0000000110010000 5
+b00 $
+$end
+#10
+b01 $
+b0000001111001110 5
+1+
+1.
+00
+11
+12
+13
+#20
+b10 $
+b0000010000000000 5
+1*
+0+
+0,
+0-
+0.
+01
+02
+03
+#30
+b11 $
+b0000000110010000 5
+0*
+1,
+1-
+10

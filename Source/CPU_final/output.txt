@@ -1,0 +1,395 @@
+Chronologic VCS simulator copyright 1991-2014
+Contains Synopsys proprietary information.
+Compiler version I-2014.03-2; Runtime version I-2014.03-2;  May  4 23:16 2018
+VCD+ Writer I-2014.03-2 Copyright (c) 1991-2014 by Synopsys Inc.
+
+		Time =   20	PC = 0002
+	Register Values:
+		R0 = 0000	R4 = f0ff	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 0040	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 0011
+		R3 = ff0f	R7 = 00ff	R11 = 3099	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =   40	PC = 0004
+	Register Values:
+		R0 = 0000	R4 = f0ff	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 0040	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 0011
+		R3 = ff0f	R7 = 00ff	R11 = 3099	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =   60	PC = 0006
+	Register Values:
+		R0 = 0000	R4 = f0ff	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 0040	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 0011
+		R3 = ff0f	R7 = 00ff	R11 = 3099	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =   80	PC = 0008
+	Register Values:
+		R0 = 0000	R4 = f0ff	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 0040	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 0011
+		R3 = ff0f	R7 = 00ff	R11 = 3099	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  100	PC = 000a
+	Register Values:
+		R0 = 0000	R4 = f0ff	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 0040	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 246c
+		R3 = ff0f	R7 = 00ff	R11 = 3099	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  120	PC = 000c
+	Register Values:
+		R0 = 0000	R4 = f0ff	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 0040	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 246c
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  140	PC = 000e
+	Register Values:
+		R0 = 0000	R4 = f0ff	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 0040	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 246c
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  160	PC = 0010
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 0040	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 246c
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  180	PC = 0012
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff88	R12 = cccc
+		R1 = 1b18	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 246c
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0019
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  200	PC = 0014
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff88	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 246c
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 1b18
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  220	PC = 0016
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff88	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 246c
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 1b18
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  240	PC = 0018
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff8a	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = 246c
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 1b18
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  260	PC = 001a
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff8a	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 1b18
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  280	PC = 001c
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff8a	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  300	PC = 001e
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff8a	R12 = cccc
+		R1 = 245b	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  320	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = ff8a	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  340	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 6666	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = xxxx
+
+		Time =  360	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  380	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  400	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  420	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  440	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  460	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  480	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  500	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  520	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  540	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  560	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  580	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  600	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  620	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  640	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  660	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  680	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+
+		Time =  700	PC = 0020
+	Register Values:
+		R0 = 0000	R4 = 000c	R8 = 0002	R12 = cccc
+		R1 = 0000	R5 = 9980	R9 = 0000	R13 = 0002
+		R2 = 245b	R6 = 0078	R10 = 0000	R14 = xxxx
+		R3 = ff0f	R7 = 00ff	R11 = 0c3e	R15 = 0000
+	Memory Values:
+		mem[00] = 1342	mem[02] = 0000
+		mem[04] = 5678	mem[06] = dead
+		mem[08] = beef	mem[0A] = 04xx
+$finish called from file "cpu_fixture.v", line 37.
+$finish at simulation time                  705
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 705
+CPU Time:      0.350 seconds;       Data structure size:   0.0Mb
+Fri May  4 23:16:19 2018

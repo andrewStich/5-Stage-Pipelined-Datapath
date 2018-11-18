@@ -1,0 +1,208 @@
+$date
+	Fri May  4 23:01:08 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 dc39e39c5decb8c2 $end
+
+
+$scope module CMPR_tb $end
+$var reg 2 ! branchOp [1:0] $end
+$var reg 16 " regIn [15:0] $end
+$var reg 16 # reg15In [15:0] $end
+$var wire 1 $ jmpTrue $end
+$var wire 1 % result [15] $end
+$var wire 1 & result [14] $end
+$var wire 1 ' result [13] $end
+$var wire 1 ( result [12] $end
+$var wire 1 ) result [11] $end
+$var wire 1 * result [10] $end
+$var wire 1 + result [9] $end
+$var wire 1 , result [8] $end
+$var wire 1 - result [7] $end
+$var wire 1 . result [6] $end
+$var wire 1 / result [5] $end
+$var wire 1 0 result [4] $end
+$var wire 1 1 result [3] $end
+$var wire 1 2 result [2] $end
+$var wire 1 3 result [1] $end
+$var wire 1 4 result [0] $end
+
+$scope module DUT $end
+$var wire 2 ! branchOp [1:0] $end
+$var wire 16 " regIn [15:0] $end
+$var wire 16 # reg15In [15:0] $end
+$var reg 1 5 jmpTrue $end
+$var reg 16 6 result [15:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+05
+0$
+04
+0*
+0)
+0(
+0'
+0&
+0%
+13
+02
+11
+00
+0/
+0.
+0-
+0,
+0+
+b00 !
+b0000000000000000 #
+b0000000000001010 "
+b0000000000001010 6
+$end
+#10
+b01 !
+b0000000000001111 #
+15
+1$
+b1111111111111011 6
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1,
+1-
+1.
+1/
+10
+14
+#20
+b0000000000001010 #
+05
+0$
+b0000000000000000 6
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+03
+04
+#30
+b0000000000000101 #
+b0000000000000101 6
+12
+14
+#40
+b10 !
+b0000000000001111 #
+b1111111111111011 6
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1,
+1-
+1.
+1/
+10
+11
+02
+13
+#50
+b0000000000001010 #
+15
+1$
+b0000000000000000 6
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+03
+04
+#60
+b0000000000000101 #
+05
+0$
+b0000000000000101 6
+12
+14
+#70
+b11 !
+b0000000000001111 #
+b1111111111111011 6
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1,
+1-
+1.
+1/
+10
+11
+02
+13
+#80
+b0000000000001010 #
+b0000000000000000 6
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+03
+04
+#90
+b0000000000000101 #
+15
+1$
+b0000000000000101 6
+12
+14

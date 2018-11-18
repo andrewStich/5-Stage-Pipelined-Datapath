@@ -1,0 +1,83 @@
+$date
+	Sun Apr  8 21:41:38 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 2b91e7f3095fe287 $end
+
+
+$scope module SHL1_tb $end
+$var reg 16 ! in [15:0] $end
+$var wire 1 " out [15] $end
+$var wire 1 # out [14] $end
+$var wire 1 $ out [13] $end
+$var wire 1 % out [12] $end
+$var wire 1 & out [11] $end
+$var wire 1 ' out [10] $end
+$var wire 1 ( out [9] $end
+$var wire 1 ) out [8] $end
+$var wire 1 * out [7] $end
+$var wire 1 + out [6] $end
+$var wire 1 , out [5] $end
+$var wire 1 - out [4] $end
+$var wire 1 . out [3] $end
+$var wire 1 / out [2] $end
+$var wire 1 0 out [1] $end
+$var wire 1 1 out [0] $end
+
+$scope module DUT $end
+$var wire 16 ! in [15:0] $end
+$var reg 16 2 out [15:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+01
+0'
+0&
+0%
+0$
+0#
+0"
+00
+1/
+1.
+0-
+1,
+1+
+0*
+0)
+0(
+b0000000000110110 !
+b0000000001101100 2
+$end
+#10
+b0000000011110101 !
+b0000000111101010 2
+1)
+1*
+0/
+10
+#20
+b1010101010101010 !
+b0101010101010100 2
+1#
+1%
+1'
+0*
+0,
+1-
+0.
+1/
+00

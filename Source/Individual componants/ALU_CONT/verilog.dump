@@ -1,0 +1,71 @@
+$date
+	Fri May  4 23:00:10 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 977407094d915471 $end
+
+
+$scope module ALU_CONT_tb $end
+$var reg 4 ! funCode [3:0] $end
+$var reg 3 " aluOp [2:0] $end
+$var wire 1 # aluFunc [2] $end
+$var wire 1 $ aluFunc [1] $end
+$var wire 1 % aluFunc [0] $end
+
+$scope module DUT $end
+$var wire 4 ! funCode [3:0] $end
+$var wire 3 " aluOp [2:0] $end
+$var reg 3 & aluFunc [2:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0%
+0$
+0#
+b000 &
+b000 "
+b0000 !
+$end
+#10
+b0001 !
+b001 &
+1%
+#20
+b0100 !
+b100 &
+1#
+0%
+#30
+b0101 !
+b101 &
+1%
+#40
+b010 "
+b010 &
+0#
+1$
+0%
+#50
+b011 "
+b011 &
+1%
+#60
+b100 "
+b000 &
+0$
+0%
+#70
+b110 "

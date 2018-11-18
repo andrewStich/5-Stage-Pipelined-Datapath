@@ -1,0 +1,422 @@
+$date
+	Thu Apr 26 18:34:21 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 fe9d02f456e711b9 $end
+
+
+$scope module REG_FILE_tb $end
+$var reg 1 ! REG_WE $end
+$var reg 1 " R15_WE $end
+$var reg 1 # clk $end
+$var reg 1 $ rst $end
+$var reg 4 % OP1_addr [3:0] $end
+$var reg 4 & OP2_addr [3:0] $end
+$var reg 4 ' W_addr [3:0] $end
+$var reg 16 ( W_data [15:0] $end
+$var reg 16 ) W_R15 [15:0] $end
+$var wire 1 * OP1_data [15] $end
+$var wire 1 + OP1_data [14] $end
+$var wire 1 , OP1_data [13] $end
+$var wire 1 - OP1_data [12] $end
+$var wire 1 . OP1_data [11] $end
+$var wire 1 / OP1_data [10] $end
+$var wire 1 0 OP1_data [9] $end
+$var wire 1 1 OP1_data [8] $end
+$var wire 1 2 OP1_data [7] $end
+$var wire 1 3 OP1_data [6] $end
+$var wire 1 4 OP1_data [5] $end
+$var wire 1 5 OP1_data [4] $end
+$var wire 1 6 OP1_data [3] $end
+$var wire 1 7 OP1_data [2] $end
+$var wire 1 8 OP1_data [1] $end
+$var wire 1 9 OP1_data [0] $end
+$var wire 1 : OP2_data [15] $end
+$var wire 1 ; OP2_data [14] $end
+$var wire 1 < OP2_data [13] $end
+$var wire 1 = OP2_data [12] $end
+$var wire 1 > OP2_data [11] $end
+$var wire 1 ? OP2_data [10] $end
+$var wire 1 @ OP2_data [9] $end
+$var wire 1 A OP2_data [8] $end
+$var wire 1 B OP2_data [7] $end
+$var wire 1 C OP2_data [6] $end
+$var wire 1 D OP2_data [5] $end
+$var wire 1 E OP2_data [4] $end
+$var wire 1 F OP2_data [3] $end
+$var wire 1 G OP2_data [2] $end
+$var wire 1 H OP2_data [1] $end
+$var wire 1 I OP2_data [0] $end
+$var wire 1 J R15_data [15] $end
+$var wire 1 K R15_data [14] $end
+$var wire 1 L R15_data [13] $end
+$var wire 1 M R15_data [12] $end
+$var wire 1 N R15_data [11] $end
+$var wire 1 O R15_data [10] $end
+$var wire 1 P R15_data [9] $end
+$var wire 1 Q R15_data [8] $end
+$var wire 1 R R15_data [7] $end
+$var wire 1 S R15_data [6] $end
+$var wire 1 T R15_data [5] $end
+$var wire 1 U R15_data [4] $end
+$var wire 1 V R15_data [3] $end
+$var wire 1 W R15_data [2] $end
+$var wire 1 X R15_data [1] $end
+$var wire 1 Y R15_data [0] $end
+
+$scope module DUT $end
+$var wire 1 ! reg_WE $end
+$var wire 1 " R15_WE $end
+$var wire 1 # clk $end
+$var wire 1 $ rst $end
+$var wire 4 % OP1_addr [3:0] $end
+$var wire 4 & OP2_addr [3:0] $end
+$var wire 4 ' W_addr [3:0] $end
+$var wire 16 ( W_data [15:0] $end
+$var wire 16 ) W_R15 [15:0] $end
+$var reg 16 Z OP1_data [15:0] $end
+$var reg 16 [ OP2_data [15:0] $end
+$var reg 16 \ R15_data [15:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+09
+0/
+1.
+1-
+0,
+0+
+0*
+08
+07
+16
+15
+04
+03
+02
+11
+10
+1I
+1?
+0>
+0=
+1<
+0;
+0:
+1H
+0G
+1F
+1E
+0D
+1C
+0B
+0A
+0@
+0"
+0Y
+0O
+0N
+0M
+0L
+0K
+0J
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0!
+0#
+0$
+b0001 %
+b0001101100011000 Z
+b0010 &
+b0010010001011011 [
+b0000000000000000 \
+b0101011001111000 )
+b0000 '
+b0001001000110100 (
+$end
+#1
+1$
+b0011 %
+b0100 &
+b1111000011111111 [
+1:
+1;
+1=
+0?
+1B
+1D
+1G
+b1111111100001111 Z
+1*
+1+
+1,
+1/
+05
+17
+18
+19
+#2
+1#
+#4
+0#
+#6
+b0101 %
+b0110 &
+1#
+b0110011001100110 [
+0:
+0=
+1?
+1@
+0B
+0E
+0F
+0I
+b0000000001000000 Z
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+13
+06
+07
+08
+09
+#8
+0#
+#10
+1#
+#11
+b0111 %
+b1000 &
+b1111111110001000 [
+1:
+1=
+1>
+1A
+1B
+0C
+0D
+1F
+0G
+0H
+b0000000011111111 Z
+12
+14
+15
+16
+17
+18
+19
+#12
+0#
+#14
+1#
+#16
+b1001 %
+b1010 &
+0#
+b0000000000000000 [
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0F
+b0000000000000000 Z
+02
+03
+04
+05
+06
+07
+08
+09
+#18
+1#
+#20
+0#
+#21
+b1011 %
+b1100 &
+b1100110011001100 [
+1:
+1;
+1>
+1?
+1B
+1C
+1F
+1G
+b0011000010011001 Z
+1,
+1-
+12
+15
+16
+19
+#22
+1#
+#24
+0#
+#26
+b1101 %
+b1110 &
+1#
+b0000000000010001 [
+0:
+0;
+0>
+0?
+0B
+0C
+1E
+0F
+0G
+1I
+b0000000000000010 Z
+0,
+0-
+02
+05
+06
+18
+09
+#28
+0#
+#30
+1#
+#31
+b1111 %
+b0000000000000000 Z
+08
+#32
+0#
+#34
+1#
+#36
+b0001 '
+1!
+1"
+0#
+#38
+1#
+b0101011001111000 \
+1K
+1M
+1O
+1P
+1S
+1T
+1U
+1V
+b0101011001111000 Z
+1+
+1-
+1/
+10
+13
+14
+15
+16
+#40
+0#
+#41
+b0001 %
+b1111 &
+b0101011001111000 [
+1;
+1=
+1?
+1@
+1C
+1D
+1F
+0I
+b0001001000110100 Z
+0+
+0/
+03
+06
+17
+#42
+1#
+#44
+0#
+#46
+b1000 '
+1#
+#48
+0#
+#50
+1#
+#51
+b1011111011101111 (
+b1000 %
+b1010 &
+b0000000000000000 [
+0;
+0=
+0?
+0@
+0C
+0D
+0E
+0F
+#52
+0#
+#54
+1#
+b1011111011101111 Z
+1*
+1,
+1.
+1/
+12
+13
+05
+16
+18
+19
+#56
+0!
+0"
+b1111111011101101 (
+b1011111011010001 )
+0#
+#58
+1#
+#60
+0#
+#62
+1#
+#64
+0#

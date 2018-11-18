@@ -1,0 +1,140 @@
+$date
+	Fri May  4 23:01:44 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 0dd508e5ead7021f $end
+
+
+$scope module HZD_DET_tb $end
+$var reg 1 ! branchOp $end
+$var reg 1 " branch $end
+$var reg 1 # D_Xmem_R $end
+$var reg 1 $ X_Mmem_R $end
+$var reg 1 % X_Mreg_W $end
+$var reg 1 & M_Wmem_R $end
+$var reg 4 ' D_Xop1 [3:0] $end
+$var reg 4 ( F_Dop1 [3:0] $end
+$var reg 4 ) F_Dop2 [3:0] $end
+$var reg 4 * X_Mop1 [3:0] $end
+$var reg 4 + M_Wop1 [3:0] $end
+$var wire 1 , bubble $end
+$var wire 1 - F_Dwrite $end
+$var wire 1 . PCwrite $end
+
+$scope module DUT $end
+$var wire 4 ' D_Xop1 [3:0] $end
+$var wire 4 ( F_Dop1 [3:0] $end
+$var wire 4 ) F_Dop2 [3:0] $end
+$var wire 4 * X_Mop1 [3:0] $end
+$var wire 4 + M_Wop1 [3:0] $end
+$var wire 1 ! branchOp $end
+$var wire 1 " branch $end
+$var wire 1 # D_Xmem_R $end
+$var wire 1 $ X_Mmem_R $end
+$var wire 1 & M_Wmem_R $end
+$var wire 1 % X_Mreg_W $end
+$var reg 1 / bubble $end
+$var reg 1 - F_Dwrite $end
+$var reg 1 . PCwrite $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+0-
+0.
+0/
+0#
+0&
+0$
+0%
+0"
+0!
+0,
+b0000 '
+b0001 (
+b0010 )
+b0100 +
+b0011 *
+$end
+#10
+1#
+b0000 (
+1.
+1-
+1/
+1,
+#20
+b0001 (
+b0000 )
+#30
+0#
+b0010 )
+0.
+0-
+0/
+0,
+#40
+1%
+1!
+b0000 +
+1.
+1-
+1/
+1,
+#50
+0%
+0.
+0-
+0/
+0,
+#60
+1$
+b0000 *
+1.
+1-
+1/
+1,
+#70
+b0011 *
+0$
+0.
+0-
+0/
+0,
+#80
+1&
+1.
+1-
+1/
+1,
+#90
+b0011 +
+0!
+0.
+0-
+0/
+0,
+#100
+1"
+1.
+1-
+1/
+1,
+#110
+0"
+0.
+0-
+0/
+0,

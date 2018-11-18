@@ -1,0 +1,217 @@
+$date
+	Fri May  4 23:03:06 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 5c77290dac547ee6 $end
+
+
+$scope module REG_FWD_tb $end
+$var reg 1 ! f_dop1 [3] $end
+$var reg 1 " f_dop1 [2] $end
+$var reg 1 # f_dop1 [1] $end
+$var reg 1 $ f_dop1 [0] $end
+$var reg 1 % f_dop2 [3] $end
+$var reg 1 & f_dop2 [2] $end
+$var reg 1 ' f_dop2 [1] $end
+$var reg 1 ( f_dop2 [0] $end
+$var reg 4 ) d_xop1 [3:0] $end
+$var reg 4 * d_xop2 [3:0] $end
+$var reg 4 + x_mop2 [3:0] $end
+$var reg 4 , m_wop2 [3:0] $end
+$var reg 1 - branch $end
+$var reg 1 . m_wregwrite $end
+$var reg 1 / x_mregwrite $end
+$var reg 1 0 x_mr15write $end
+$var reg 1 1 m_wr15write $end
+$var wire 1 2 alufwda [2] $end
+$var wire 1 3 alufwda [1] $end
+$var wire 1 4 alufwda [0] $end
+$var wire 1 5 alufwdb [2] $end
+$var wire 1 6 alufwdb [1] $end
+$var wire 1 7 alufwdb [0] $end
+$var wire 1 8 cmpsrc [1] $end
+$var wire 1 9 cmpsrc [0] $end
+
+$scope module dut $end
+$var wire 1 ! f_dop1 [3] $end
+$var wire 1 " f_dop1 [2] $end
+$var wire 1 # f_dop1 [1] $end
+$var wire 1 $ f_dop1 [0] $end
+$var wire 1 % f_dop2 [3] $end
+$var wire 1 & f_dop2 [2] $end
+$var wire 1 ' f_dop2 [1] $end
+$var wire 1 ( f_dop2 [0] $end
+$var wire 4 ) d_xop1 [3:0] $end
+$var wire 4 * d_xop2 [3:0] $end
+$var wire 4 + x_mop2 [3:0] $end
+$var wire 4 , m_wop2 [3:0] $end
+$var wire 1 - branch $end
+$var wire 1 . m_wregwrite $end
+$var wire 1 / x_mregwrite $end
+$var wire 1 0 x_mr15write $end
+$var wire 1 1 m_wr15write $end
+$var reg 3 : alufwda [2:0] $end
+$var reg 3 ; alufwdb [2:0] $end
+$var reg 2 < cmpsrc [1:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+04
+03
+02
+07
+06
+05
+0-
+09
+08
+0$
+0#
+0"
+0!
+0(
+0'
+0&
+0%
+01
+0.
+00
+0/
+b000 :
+b000 ;
+b00 <
+b0000 )
+b0000 *
+b0000 ,
+b0000 +
+$end
+#10
+1/
+b0101 )
+b0101 +
+b100 :
+12
+#20
+0/
+b0000 +
+1.
+b0101 ,
+b011 :
+02
+13
+14
+#30
+0.
+b0000 ,
+1/
+b0101 +
+b0101 *
+b0000 )
+b100 ;
+15
+b000 :
+03
+04
+#40
+0/
+b0000 +
+1.
+b0101 ,
+b011 ;
+05
+16
+17
+#50
+0.
+b0000 ,
+b0000 *
+b000 ;
+06
+07
+#60
+10
+b1111 )
+b010 :
+13
+#70
+00
+11
+b001 :
+03
+14
+#80
+b0000 )
+01
+10
+b1111 *
+b010 ;
+16
+b000 :
+04
+#90
+00
+11
+b001 ;
+06
+17
+#100
+01
+b0000 *
+b000 ;
+07
+#110
+1-
+10
+b10 <
+18
+#120
+11
+#130
+00
+b01 <
+19
+08
+#140
+1/
+1.
+10
+b0011 )
+b1111 *
+b0011 +
+b1111 ,
+b10 <
+09
+18
+b011 ;
+16
+17
+b100 :
+12
+#150
+00
+b01 <
+19
+08
+#160
+01
+b0011 *
+b0011 ,
+b00 <
+09
+b100 ;
+15
+06
+07

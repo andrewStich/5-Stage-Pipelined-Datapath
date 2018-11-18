@@ -1,0 +1,44 @@
+$date
+	Fri May  4 22:59:50 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 e766ad9f854d0ca8 $end
+
+
+$scope module ADD_N_tb $end
+$var reg 16 ! A [15:0] $end
+$var reg 16 " B [15:0] $end
+$var wire 16 # Y [15:0] $end
+
+$scope module DUT $end
+$var wire 32 $ A [31:0] $end
+$var wire 32 % B [31:0] $end
+$var reg 32 & Y [31:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+b0000000000101010 !
+b0000000110100100 "
+b00000000000000000000000000101010 $
+b00000000000000000000000110100100 %
+b00000000000000000000000111001110 &
+b0000000111001110 #
+$end
+#10
+b0000001000111001 !
+b00000000000000000000001000111001 $
+b00000000000000000000001111011101 &
+b0000001111011101 #

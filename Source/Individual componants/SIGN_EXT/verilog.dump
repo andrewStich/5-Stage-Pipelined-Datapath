@@ -1,0 +1,73 @@
+$date
+	Sun Apr  8 21:05:49 2018
+$end
+
+$version
+	Synopsys VCS version I-2014.03-2
+$end
+
+$timescale
+	1s
+$end
+
+$comment Csum: 1 fedda4c7fbe56483 $end
+
+
+$scope module SIGN_EXT_tb $end
+$var reg 12 ! unex [11:0] $end
+$var wire 1 " ext [15] $end
+$var wire 1 # ext [14] $end
+$var wire 1 $ ext [13] $end
+$var wire 1 % ext [12] $end
+$var wire 1 & ext [11] $end
+$var wire 1 ' ext [10] $end
+$var wire 1 ( ext [9] $end
+$var wire 1 ) ext [8] $end
+$var wire 1 * ext [7] $end
+$var wire 1 + ext [6] $end
+$var wire 1 , ext [5] $end
+$var wire 1 - ext [4] $end
+$var wire 1 . ext [3] $end
+$var wire 1 / ext [2] $end
+$var wire 1 0 ext [1] $end
+$var wire 1 1 ext [0] $end
+
+$scope module DUT $end
+$var wire 11 2 in [10:0] $end
+$var reg 16 3 out [15:0] $end
+$upscope $end
+
+$upscope $end
+
+$enddefinitions $end
+
+#0
+$dumpvars
+01
+0'
+0&
+0%
+0$
+0#
+0"
+10
+1/
+0.
+1-
+1,
+0+
+0*
+0)
+0(
+b00000110110 2
+b0000000000110110 3
+b000000110110 !
+$end
+#10
+b000011110101 !
+b00011110101 2
+b0000000011110101 3
+1*
+1+
+00
+11
